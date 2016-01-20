@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Audio manipulation</title>
+		<meta name="description" content="Audio manipulation">
+		<link href="style.less" type="text/css" rel="stylesheet">
+		<script src="script.js"></script>
+	</head>
+	<body>
+	<header>
+		<h1>Web Audio API</h1>
+	</header>
+	<section class="picker">
+		<div id="picker">
+			<button id="mic-picker-button">Start Microphone Stream</button>
+			<div id="picker-dialog">
+				<input type="file" id="picker-input"/>
+				<button id="picker-button">Start File Stream</button>
+			</div>
+			<button id="stop-process">Stop Stream</button>
+		</div>
+	</section>
+	<section class="canvas">
+		<canvas width="400" height="400" id="heartbeat"></canvas>
+		<canvas width="200" height="200" id="heart"></canvas>
+		<canvas width="200" height="200" id="time"></canvas>
+	</section>
+	<footer>
+		<div class="">Web Audio API - Footer</div>
+	</footer>
+	</body>
+</html>
